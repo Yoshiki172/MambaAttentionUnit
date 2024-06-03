@@ -14,11 +14,6 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from mamba_ssm.ops.selective_scan_interface import selective_scan_fn, selective_scan_ref
 DropPath.__repr__ = lambda self: f"timm.DropPath({self.drop_prob})"
 
-from nnunetv2.utilities.plans_handling.plans_handler import ConfigurationManager, PlansManager
-from monai.networks.blocks.dynunet_block import UnetOutBlock
-from monai.networks.blocks.unetr_block import UnetrBasicBlock, UnetrUpBlock
-
-
 
 class PatchEmbed2D(nn.Module):
     r""" Image to Patch Embedding
