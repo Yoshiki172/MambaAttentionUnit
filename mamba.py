@@ -1,3 +1,10 @@
+# @article{Swin-UMamba,
+#     title={Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining},
+#     author={Jiarun Liu and Hao Yang and Hong-Yu Zhou and Yan Xi and Lequan Yu and Yizhou Yu and Yong Liang and Guangming Shi and Shaoting Zhang and Hairong Zheng and Shanshan Wang},
+#     journal={arXiv preprint arXiv:2402.03302},
+#     year={2024}
+# }
+
 import re
 import time
 import math
